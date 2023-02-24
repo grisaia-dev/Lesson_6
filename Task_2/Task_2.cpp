@@ -1,8 +1,10 @@
 ﻿#include <iostream>
-#include <string>
+#include <Windows.h>
 #include "counter.h"
 
 int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
     const std::string yes_or_no[2] = { "да", "нет" }, command[4] = { "+", "-", "=", "x" };
     std::string user_ans;
@@ -45,4 +47,5 @@ int main() {
     } else {
         std::cout << "Нет такого значения!" << std::endl;
     }
+    return 0;
 }

@@ -127,7 +127,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SourceAndHeadres\EquilateralTriangle.cpp" />
+    <ClCompile Include="SourceAndHeadres\Figure.cpp" />
+    <ClCompile Include="SourceAndHeadres\IsoscelesTriangle.cpp" />
+    <ClCompile Include="SourceAndHeadres\Parallelogram.cpp" />
+    <ClCompile Include="SourceAndHeadres\Quadrilateral.cpp" />
+    <ClCompile Include="SourceAndHeadres\Rectangle.cpp" />
+    <ClCompile Include="SourceAndHeadres\Rhombus.cpp" />
+    <ClCompile Include="SourceAndHeadres\RightTriangle.cpp" />
+    <ClCompile Include="SourceAndHeadres\Square.cpp" />
+    <ClCompile Include="SourceAndHeadres\Triangle.cpp" />
     <ClCompile Include="Task_3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceAndHeadres\EquilateralTriangle.h" />
+    <ClInclude Include="SourceAndHeadres\Figure.h" />
+    <ClInclude Include="SourceAndHeadres\IsoscelesTriangle.h" />
+    <ClInclude Include="SourceAndHeadres\Parallelogram.h" />
+    <ClInclude Include="SourceAndHeadres\Quadrilateral.h" />
+    <ClInclude Include="SourceAndHeadres\Rectangle.h" />
+    <ClInclude Include="SourceAndHeadres\Rhombus.h" />
+    <ClInclude Include="SourceAndHeadres\RightTriangle.h" />
+    <ClInclude Include="SourceAndHeadres\Square.h" />
+    <ClInclude Include="SourceAndHeadres\Triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
